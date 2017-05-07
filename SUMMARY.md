@@ -6,16 +6,23 @@
   * [相關活動](promotion/activity.md)
 * [網站測試基礎]()
   * [測試分類](foundation/categories.md)
-  * [測試文件](foundation/document.md)
-* [安裝指南](install/README.md)
-  * [JAVA SDK](install/README.md)
-  * [NPM](install/README.md)
-* [Javascript 基礎](js/README.md)
+  * [測試金字塔](foundation/test-pyramid.md)
+  * [測試環境](foundation/test-env.md)
+  * [前端測試框架](foundation/end-to-end-testing-frameworks.md)
+  * [問答](foundation/questions.md)
+* [安裝指南]()
+  * [JAVA SDK]()
+  * [NPM](install/npm.md)
 * [Selenium](selenium/README.md)
   * [Selenium IDE](selenium/selenium-ide.md)
   * [Selenium RC](selenium/selenium-rc.md)
-  * [WebDriver](selenium/webdriver.md)
+  * [Selenium WebDriver](selenium/webdriver.md)
   * [Selenium Grid](selenium/selenium-grid.md)
+* [練習題]()
+  * [錄製一個 Test Case](practices/ex01.md)
+* [Javascript 基礎](js/README.md)
+
+<!--
 * [單元測試](unit-test/README.md)
 * [測試框架 - Mocha](framework/mocha.md)
 * [Chai](framework/chai.md)
@@ -27,6 +34,9 @@
 * [測試實用工具]()
 * [測試報表](report/README.md)
 * [雲端測試](cloud-testing/README.md)
-* [練習題](practices/README.md)
 * [導入網站自動化測試建議](advice/README.md)
 * [更多資源](resource/README.md)
+-->
+
+
+<!--* [測試文件](foundation/document.md)-->

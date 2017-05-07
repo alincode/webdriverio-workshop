@@ -1,15 +1,16 @@
 # 關於我(Alin)
 
-劉艾霖（alincode）
+劉艾霖（[alincode](https://github.com/alincode)）
 
-* [創科資訊](http://trunk-studio.com/) - 軟體開發技術顧問
+* [創科資訊](http://trunk-studio.com/) - 軟體技術顧問
 * 具有實務上的 Web Full Stack 開發，及協助企業導入網站自動化測試實務經驗，熟悉 Java 及 Javascript 開發，目前從事企業技術教學與顧問。
 
 ### 擅長領域
 
 * 網頁開發 (前端 + 後端 = 全端)
 * 自動化測試開發
-* 電子商務網站開發 
+* 電子商務網站開發
+* 第三方服務整合
 
 ### 教學 / 講師經歷
 

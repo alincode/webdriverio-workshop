@@ -6,12 +6,9 @@
 * 支援多平台：MAC、Window、Linux
 * 支援多語言：Java、Python、Ruby、C#、Javascipt、C++
 
-* [GitHub - SeleniumHQ/selenium: A browser automation framework and ecosystem.](https://github.com/SeleniumHQ/selenium)
-* [Selenium Documentation — Selenium Documentation](http://docs.seleniumhq.org/docs/)
+### Selenium 目前有四個主要的專案
 
-Selenium 目前有四個主要的專案：
-
-* WebDriver
+* Selenium WebDriver
 * Selenium Remote Control
 * Selenium IDE
 * Selenium Grid
@@ -23,4 +20,14 @@ Selenium 目前有四個主要的專案：
 * Enables parallel execution
 * Encourages unattended execution
 * Improves accuracy thereby reducing human generated errors
-* Saves time and money
+* 省下測試的時間
+
+### 應用領域
+
+* 自動化測試
+* 網站擷取 / 網路爬蟲
+
+### 延伸閱讀
+
+* [GitHub - SeleniumHQ/selenium: A browser automation framework and ecosystem.](https://github.com/SeleniumHQ/selenium)
+* [Selenium Documentation — Selenium Documentation](http://docs.seleniumhq.org/docs/)

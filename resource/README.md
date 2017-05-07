@@ -9,6 +9,7 @@
 * <http://phptravels.com/demo/>
 * <http://automationpractice.com/>
 * <https://enterprise-demo.orangehrmlive.com/auth/login>
+* <http://bit.ly/watir-example>
 * [Demo Testing Site - GlobalSQA](http://www.globalsqa.com/demo-site/)
 * [AngularJS Protractor Practice Site - GlobalSQA](http://www.globalsqa.com/angularjs-protractor-practice-site/)
 * [Way 2 Automation - Website For Testing Selenium / QTP Scripts](http://www.way2automation.com/demo.html)
