@@ -1,6 +1,6 @@
 # 關於我(Alin)
 
-![](asssets/profile.jpg)
+![](assets/profile.png)
 
 劉艾霖（[alincode](https://github.com/alincode)）
 
