@@ -1,5 +1,7 @@
 # 關於我(Alin)
 
+![](asssets/profile.jpg)
+
 劉艾霖（[alincode](https://github.com/alincode)）
 
 * [創科資訊](http://trunk-studio.com/) - 軟體技術顧問
