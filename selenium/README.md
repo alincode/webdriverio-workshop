@@ -15,11 +15,10 @@
 
 ### 優點
 
-* Supports execution of repeated test cases
-* Aids in testing a large test matrix
-* Enables parallel execution
-* Encourages unattended execution
-* Improves accuracy thereby reducing human generated errors
+* 支援重複執行測試程式
+* 支援並行執行
+* 支援背景執行
+* 提高測試準確定，減少人為產生的錯誤。
 * 省下測試的時間
 
 ### 應用領域
