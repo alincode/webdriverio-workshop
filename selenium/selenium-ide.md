@@ -2,11 +2,6 @@
 
 Selenium IDE 是 Firefox 附加元件 (extension)，需要搭配 Firefox 瀏覽器才能使用。
 
-### 安裝 Selenium IDE
-
-1. 首先你必須要安裝 [Firefox](https://www.mozilla.org/zh-TW/firefox/new/)
-1. 然後你必須要安裝 Selenium IDE，你可以至 <https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/> 安裝它。
-
 ### 開啟 Selenium IDE
 
 在 Firefox 瀏覽器的**工具**選單，打開 **Selenium IDE** 會出現下面這個視窗畫面：
