@@ -1,4 +1,4 @@
-# BDD
+# BDD 以 Cucumber 為例
 
 * 行為驅動開發（英語：Behavior-driven development，縮寫 BDD）
 * 由外而內考量
