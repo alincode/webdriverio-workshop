@@ -82,13 +82,3 @@ npm test
 ### 練習題
 
 * 撰寫一個加減乘除的單元測試程式
-
-### 專有名詞
-
-**Test Case**
-
-**Test Suite**
-
-**Test Runner**
-
-**Test Fixture**

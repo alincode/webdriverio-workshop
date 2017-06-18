@@ -1,12 +1,17 @@
 # Chai
 
-Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+[Chai Assertion Library](http://chaijs.com/)
+
+> Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+
+> Chai has several interfaces that allow the developer to choose the most comfortable. The chain-capable BDD styles provide an expressive language & readable style, while the TDD assert style provides a more classical feel.
 
 **安裝**
 
 ```
 npm install --save-dev chai
 ```
+
 **Should**
 
 ```js

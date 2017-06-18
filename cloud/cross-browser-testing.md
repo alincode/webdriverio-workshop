@@ -15,7 +15,7 @@ PHANTOMJS = {'platform': 'ANY', 'browserName': 'phantomjs', 'version': '','javas
 SAFARI = {'platform': 'MAC', 'browserName': 'safari', 'version': ''}
 ```
 
-### [PhantomJS](<http://phantomjs.org/>) 介紹
+### 介紹 [PhantomJS](<http://phantomjs.org/>)
 
 * PhantomJS 無需瀏覽器的支持即可實現對 Web 的支持
 * 快速入門：<http://phantomjs.org/quick-start.html>
@@ -36,7 +36,6 @@ page.open(url, function (status) {
   phantom.exit();
 });
 ```
-
 **適用場景**
 
 * 作業系統沒有 GUI 環境
@@ -50,18 +49,11 @@ page.open(url, function (status) {
 * BrowserStack: <https://www.browserstack.com/>
 * TestingBot: <https://testingbot.com/>
 
+### 介紹 TestingBot
+
+* 功能
+* 價格方案
+
+<https://testingbot.com/>
+
 ![](assets/price.png)
-
-### 注意 timeout 的問題
-
-```js
-// wdio.conf.js
-exports.config = {
-    // ...
-    framework: 'mocha',
-    mochaOpts: {
-        timeout: 20000
-    },
-    // ...
-}
-```

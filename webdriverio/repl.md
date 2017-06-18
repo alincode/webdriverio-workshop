@@ -18,11 +18,7 @@ node_module/.bin/wdio repl chrome
 ```js
 browser.url('https://www.dcard.tw/signup');
 browser.getTitle();
-browser.click('[href=/f]');
+browser.click('[href="/f"]');
 browser.getAttribute('#search input', 'placeholder');
 browser.$('.PostEntry_container_245XM strong').getText();
 ```
-
-<!--
-browser.$$('.PostEntry_container_245XM strong').forEach(function(item){ console.log(item.getText()); });
--->

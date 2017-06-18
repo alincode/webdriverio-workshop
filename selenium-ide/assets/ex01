@@ -3,53 +3,73 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://demo.fork-cms.com/" />
-<title>ex01</title>
+<link rel="selenium.base" href="http://juliemr.github.io/" />
+<title>calc</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">ex01</td></tr>
+<tr><td rowspan="1" colspan="3">calc</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/private/en/authentication/index?token=fj9pkr4c2k</td>
+	<td>/protractor-demo/</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=backendEmail</td>
-	<td>demo@fork-cms.com</td>
+	<td>//input[@type='text']</td>
+	<td>1</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=backendPassword</td>
-	<td>demo</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>name=login</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=span.nav-item-text</td>
-	<td>Dashboard</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>2</td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=img.img-circle</td>
+	<td>id=gobutton</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=Sign out</td>
+	<td>waitForElementPresent</td>
+	<td>css=td.ng-binding</td>
 	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2.ng-binding</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='text']</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select</td>
+	<td>label=-</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=gobutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForCssCount</td>
+	<td>css=tr</td>
+	<td>3</td>
 </tr>
 <tr>
 	<td>assertText</td>
-	<td>name=login</td>
-	<td>Log in</td>
+	<td>//td[3]</td>
+	<td>1</td>
 </tr>
 
 </tbody></table>

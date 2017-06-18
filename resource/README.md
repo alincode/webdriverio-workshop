@@ -18,6 +18,10 @@
 
 <!--搜尋 Demo website to practice-->
 
+### 軟體自動化測試界的年度盛事
+
+* GTAC (Google Test Automation Conference)
+
 ### 參考來源
 
 * [7 Websites to Practice Selenium Webdriver Online](http://www.techbeamers.com/websites-to-practice-selenium-webdriver-online/)

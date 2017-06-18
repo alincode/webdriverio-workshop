@@ -37,7 +37,6 @@ console.log(x === "5");
 var people = [{
     firstname: 'ailin',
     lastname: 'liou'
-
   },{
     firstname: 'Jane',
     lastname: 'Doe'
@@ -52,6 +51,15 @@ lang.length;
 lang.forEach(function(item) {
     console.log(item);
 });
+```
+
+**物件**
+
+```js
+var people = {
+    firstname: 'ailin',
+    lastname: 'liou'
+};
 ```
 
 **函式**
@@ -74,4 +82,10 @@ function callback(item) {
 }
 
 lang.forEach(callback);
+```
+
+**引用外部程式 / 模組**
+
+```js
+var LoginPage = require('../pageobjects/login.page');
 ```

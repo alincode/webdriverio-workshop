@@ -32,6 +32,8 @@
 
 ![](assets/testing-days-2017.png)
 
+<!--
 **[2017 網站測試開發 with WebdriverIO 實戰講堂](http://learning.ithome.com.tw/course/pUG31cbVpdA)**
 
 ![](assets/webdriverio-workshop.png)
+-->
