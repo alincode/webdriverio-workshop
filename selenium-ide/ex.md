@@ -21,6 +21,7 @@
 * 供測試的網站：<http://demo.fork-cms.com/private/>
 * 帳號：demo@fork-cms.com
 * 密碼：demo
+* 學習重點：最近接近於真實的情況
 
 ![](assets/ex03-ui.png)
 

@@ -57,3 +57,8 @@ page.open(url, function (status) {
 <https://testingbot.com/>
 
 ![](assets/price.png)
+
+
+### 延伸閱讀
+
+* [BrowserStack Node JS WebdriverIO Documentation](https://www.browserstack.com/automate/webdriverio)

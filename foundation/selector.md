@@ -2,7 +2,7 @@
 
 常見的英文稱呼叫：Target / Element Locators / Selector
 
-### identifier
+### Identifier
 
 identifier=id：選擇帶有特定 @id 屬性的元素。如果 @id 沒有找到元素，則會改以選擇 @name 中符合 id 的值。指令需要元素定位器為參數時，大多都是以此作為預設值。
 
@@ -21,8 +21,6 @@ name=name：選擇帶有特定 @name 屬性的元素。
 ```html
 <div name="myName">hello</div>
 ```
-
-**練習題：使用 identifier 與 Name 選擇方式**
 
 ### DOM
 
@@ -51,7 +49,7 @@ document.forms[0].elements[3]
  <html>
 ```
 
-### xpath
+### XPath
 
 xpath=xpathExpression：以 XPath 表示式來定位元素。
 
@@ -62,7 +60,7 @@ xpath=id('myId')
 * [XPath Checker](https://addons.mozilla.org/en-US/firefox/addon/1095?id=1095)
 * [W3Schools XPath Tutorial](http://www.w3schools.com/xml/xpath_intro.asp)
 
-### link
+### Link Text
 
 link=textPattern：選擇包含指定文字比對模式（text patterns）的連結（link）或錨點（anchor）元素，也就是<a>。
 
@@ -81,7 +79,18 @@ link=Cancel
 <html>
 ```
 
-**練習題：使用 xpath 與 link 選擇方式**
+### Partial Link Text
+
+
+```html
+<html>
+ <body>
+  <p>Are you sure you want to do this?</p>
+  <a href="continue.html">Continue</a>
+  <a href="cancel.html">Go Home Page</a>
+</body>
+<html>
+```
 
 ### CSS selector
 
@@ -109,10 +118,6 @@ css=#loginForm input:nth-child(2)
  <html>
 ```
 
-**練習題：使用 CSS 選擇方式**
-
-<http://flukeout.github.io/>
-
 ![](assets/css-selector.png)
 
 * 補充工具的使用方式
@@ -123,3 +128,4 @@ css=#loginForm input:nth-child(2)
 
 * [CSS 選擇器參考手冊](http://www.w3school.com.cn/cssref/css_selectors.asp)
 * [w3schools - css selectors](https://www.w3schools.com/cssref/css_selectors.asp)
+* <http://flukeout.github.io/>

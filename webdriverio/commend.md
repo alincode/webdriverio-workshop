@@ -184,11 +184,3 @@ element.isSelected(); // 輸出: false
 ```js
 browser.isExisting(selector);
 ```
-
-### 補充
-
-**驗證**
-
-```js
-assert.equal('實際文字內容', '預期文字內容');
-```

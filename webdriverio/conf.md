@@ -5,11 +5,7 @@ wdio.conf.js
 ```js
 exports.config = {
     
-    //
-    // ==================
     // 測試程式放置的位置
-    // ==================
-    //
     specs: [
         './test/specs/**/*.js'
     ],
@@ -22,7 +18,7 @@ exports.config = {
         browserName: 'firefox'
     }],
 
-    // 使用同步模式
+    // true: 同步模式, false: 非同步模式
     sync: true,
 
     // 設定 log 的層級 : silent | verbose | command | data | result | error

@@ -1,8 +1,5 @@
 # 介紹 WebdriverIO
 
-* [awesome-selenium](https://github.com/christian-bromann/awesome-selenium)
-* <http://slides.com/alincode/deck-3#/>
-
 ### 有兩種模式 (Mode)
 
 **Standalone Mode (獨立執行模式)**
@@ -26,6 +23,8 @@ webdriverio
 
 **The WDIO Testrunner**
 
+> a test runner that helps you to build a reliable test suite that is easy to read and maintain
+
 ```js
 describe('測試', function() {
   it('測試一', function() {
@@ -40,6 +39,8 @@ describe('測試', function() {
 
 **支援的測試框架**
 
-* Mocha
-* Jasmine
+* Mocha：<https://mochajs.org/>
+* Jasmine：<https://jasmine.github.io/>
 * Cucumber
+
+<https://npmcompare.com/compare/mocha,jasmine,cucumber>

@@ -2,8 +2,10 @@
 
 ### 已經有 selenium webdriver 了，為什麼要用測試框架？
 
+<!--
 * 前端測試框架提供更簡單的 API
 * 完整的測試流程，並是不只有控制前端行為這麼單純。
+-->
 
 <!--
 1. 我們應該把時間花在撰寫測試邏輯，而不是把時間花在測試程式的語法。
@@ -12,8 +14,6 @@
 
 ### 常見測試框架
 
-[GitHub - christian-bromann/awesome-selenium: A curated list of delightful Selenium resources.](https://github.com/christian-bromann/awesome-selenium)
-
 框架名稱| 語言 | 特色
 ---------|----------|---------
  [Robot](http://robotframework.org/) | Python | 
@@ -21,6 +21,16 @@
  [Webdriver.IO](http://webdriver.io/) | Javascript | 
  [Nightwatch.js](http://www.nightmarejs.org/) | Javascript | 
  [Protractor](https://angular.github.io/protractor/) | Javascript |  
+
+ * [GitHub - christian-bromann/awesome-selenium: A curated list of delightful Selenium resources.](https://github.com/christian-bromann/awesome-selenium)
+ * <https://npmcompare.com/compare/nightwatch,protractor,webdriverio>
+
+### 挑選準則
+
+* 資源：功能、工具、文件
+* 擴充：架構容不容易擴充
+* 永續性：PR 多不多
+* 開發者面向：容不容易 debug
 
 ### 延伸閱讀
 * [Robot Framework web automation Basics tutorial #1 - YouTube](https://www.youtube.com/watch?v=AcJ1k5SBcfc)

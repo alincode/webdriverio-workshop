@@ -1,5 +1,13 @@
 # Javascript 基礎
 
+**變數**
+
+```js
+var x = 'x';
+let y = 'y';
+const z = 'z';
+```
+
 **宣告**
 
 ```js

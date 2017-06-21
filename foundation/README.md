@@ -1,30 +1,33 @@
 # 測試基礎
 
+### 一個完整的測試
+
+* 準備環境
+* 準備資料
+* 定義輸入
+* 執行 function
+* 驗證輸出 
+
 ### 測試環境
 
 ![](https://i-msdn.sec.s-msft.com/dynimg/IC721395.png)
 
-#### DEV 
+  -  | DEV | QA / UAT | Staging | Production
+---------|----------|---------|--------|---------
+ 資料庫內的資料 | 假資料 | 假資料 | 跟 Production 一致的環境 | 真實資料
+ 分支 | develop | release | master | master
+ 使用情境 | beta 功能 demo | 驗收功能 | * 上版前的最後測試 <br> * 預先測試 SQL 腳本 | 
 
-* 開發環境
-* 資料庫：假資料
+UAT：全名叫 User Acceptance Testing 使用者驗收測試
 
-#### QA
+### 測試資料
 
-* 有時又稱使用者驗收測試(UAT - User Acceptance Testing)
-* 使用情境：驗收功能
-
-#### Staging
-
-* 跟 Production 一致的環境
-* 資料庫：與正式環境一致
-* 使用情境：上版前的最後測試、預先測試 SQL 腳本
-
-#### Production
-
-* 正式環境
+* 環境變數
+* 測試資料庫
+* 假資料
 
 ### 測試金字塔 (Test Pyramid)
+
 
 ![](https://img3.doubanio.com/lpic/s6246942.jpg)
 
@@ -80,7 +83,7 @@ driver.quit();
 ---------------|-------------------
 花費的時間 | 長 | 短
 可測出的問題分佈 | 新功能的 bug | 已知的測試流程的 bug
-同時測試數量  | 一次只能測一個 | 一次可以測多個
+同時測試數量  | 一次只能測一個 | 一次可以測多個 
 
 ### 延伸閱讀
 

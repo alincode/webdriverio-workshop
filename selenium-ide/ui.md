@@ -4,31 +4,17 @@
 
 ### 功能列 (Toolbar)
 
-![](http://www.seleniumhq.org/docs/_images/chapt3_img06_IDE_features.png)
+<!--![](http://www.seleniumhq.org/docs/_images/chapt3_img06_IDE_features.png)-->
 
-快速 / 慢速執行
 
-![](http://www.seleniumhq.org/docs/_images/chapt3_img07_Speed_Control.png)
-
-執行 Test Suit
-
-![](http://www.seleniumhq.org/docs/_images/chapt3_img08_Run_All.png)
-
-執行 Test Case
-
-![](http://www.seleniumhq.org/docs/_images/chapt3_img09_Run.png)
-
-錄影 (Record)
-
-![](http://www.seleniumhq.org/docs/_images/chapt3_img15_Record.png)
-
-逐步執行
-
-![](http://www.seleniumhq.org/docs/_images/chapt3_img12_Step.png)
-
-暫停 / 恢復
-
-![](http://www.seleniumhq.org/docs/_images/chapt3_img10_Pause.png)
+圖形 | 功能
+---------|----------
+ ![](http://www.seleniumhq.org/docs/_images/chapt3_img07_Speed_Control.png) | 快速 / 慢速執行
+ ![](http://www.seleniumhq.org/docs/_images/chapt3_img08_Run_All.png) | 執行 Test Suit
+ ![](http://www.seleniumhq.org/docs/_images/chapt3_img09_Run.png) | 執行 Test Case
+ ![](http://www.seleniumhq.org/docs/_images/chapt3_img15_Record.png) | 錄影 (Record)
+ ![](http://www.seleniumhq.org/docs/_images/chapt3_img12_Step.png) | 逐步執行
+ ![](http://www.seleniumhq.org/docs/_images/chapt3_img10_Pause.png) | 暫停 / 恢復
 
 ### 面板
 
