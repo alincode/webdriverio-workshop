@@ -20,6 +20,7 @@
   
 * 實戰練習 - NPM
 * 實戰練習 - BMI 單元測試
+  <https://github.com/alincode/bmi-demo>
 * 實戰練習 - WebdriverIO
   * 實戰練習 - 登入和登出
   <https://github.com/alincode/jsdc-tw-2016-webdriverio/blob/master/test/specs/demo2.js>

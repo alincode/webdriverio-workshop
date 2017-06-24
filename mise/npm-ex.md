@@ -6,6 +6,6 @@
 mkdir npm-demo
 cd npm-demo
 npm init -y
-npm install --save-dev webdriverio
+npm install --save-dev mocha
 npm test
 ```
