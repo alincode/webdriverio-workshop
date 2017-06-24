@@ -12,11 +12,3 @@
 
 * 如發現內容勘誤，歡迎使用 [GitHub Issues](https://github.com/alincode/webdriverio-workshop/issues) 回報錯誤或發 pull request。
 * 或來信 <alincode@gmail.com>
-
-
-<!--
-**TODO**
-
-* design test case
-* write test code smarter
--->
