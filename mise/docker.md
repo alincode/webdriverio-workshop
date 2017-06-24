@@ -32,6 +32,8 @@
 * selenium/node-chrome-debug: Selenium node with Chrome installed and runs a VNC server, needs to be connected to a Selenium Grid Hub
 * selenium/node-firefox-debug: Selenium node with Firefox installed and runs a VNC server, needs to be connected to a Selenium Grid Hub
 
+![](assets/e2e-docker.png)
+
 <!--
 Xvfb 是什麼呢，他的名稱是 virtual framebuffer X server for X Version 11， Xvfb 可以直接處理 Window 的圖形化功能，並且不會把圖像輸出到螢幕上，也就是說，就算你的電腦沒有啟動 Xwindow ， 你仍然可以執行任何圖形程式。
 -->
