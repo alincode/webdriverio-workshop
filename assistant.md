@@ -15,4 +15,13 @@
   * 練習一：測試計算機 <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01>
   * 練習二：登入和登出
   <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01>
-
+* 實戰練習 - NPM
+* 實戰練習 - BMI 單元測試
+* 實戰練習 - WebdriverIO
+  * 實戰練習 - 登入和登出
+  * 實戰練習 - 檔案上傳
+  <https://raw.githubusercontent.com/alincode/webdriverio-workshop/master/webdriverio/ex02.md>
+  * 實戰練習 - basic Auth <https://raw.githubusercontent.com/alincode/webdriverio-workshop/master/webdriverio/ex03.md>
+  * 實戰練習 - 改寫登入和登出為 Page Object <https://github.com/alincode/webdriverio-pageobject>
+  * 實戰練習 - 雲端瀏覽器測試
+    <https://github.com/alincode/testing-day-2017-e2e-testing/blob/master/wdio.conf.js>
