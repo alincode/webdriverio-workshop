@@ -59,11 +59,11 @@ exports.config = {
     framework: 'mocha',
 
     // 報表格式
-    reporters: ['spec'],
+    reporters: ['dot', 'spec'],
     
     // Mocha 的 Option 設定
     mochaOpts: {
-        ui: 'bdd',
+        ui: 'bdd',  // specify user-interface (bdd|tdd|qunit|exports)
         timeout: 600000
     },
 }

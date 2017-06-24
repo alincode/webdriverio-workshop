@@ -2,6 +2,7 @@
 
 * [GitHub - christian-bromann/awesome-selenium: A curated list of delightful Selenium resources.](https://github.com/christian-bromann/awesome-selenium)
 * [GitHub - SeleniumHQ/docker-selenium: Docker images for Selenium Standalone Server](https://github.com/SeleniumHQ/docker-selenium)
+* [GitHub - xolvio/qualityfaster: An example project showing how to create robust and maintainable acceptance tests](https://github.com/xolvio/qualityfaster)
 
 ### 可供測試的網站
 

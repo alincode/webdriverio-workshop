@@ -6,7 +6,7 @@
 
 > This reduces the amount of duplicated code and means that if the UI changes, the fix need only be applied in one place. >>> [Selenium - Page Object Pattern](https://github.com/SeleniumHQ/selenium/wiki/PageObjects)
 
-減少重複程式碼的數量，當 UI 變動時，只需修改一個地方。
+減少重複程式碼的數量，當 UI 變動時，只需修改一個地方。[範例](https://github.com/alincode/modern-web-2016-e2etest/commit/fc1fa2fdad205d0188120542128b0a39fe85ab32)
 
 ![](https://martinfowler.com/bliki/images/pageObject/pageObject.png)
 

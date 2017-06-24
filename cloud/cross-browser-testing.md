@@ -23,6 +23,10 @@ SAFARI = {'platform': 'MAC', 'browserName': 'safari', 'version': ''}
 * [Install PhantomJS on Windows - YouTube](https://www.youtube.com/watch?v=L8Lw53MjDdY)
 
 ```
+browserName: 'phantomjs'
+```
+
+```
 // 執行
 phantomjs
 ```
