@@ -13,12 +13,16 @@
 
 * Selenium IDE 實戰練習
   * 練習一：測試計算機 <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01>
+  ![](https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01-answer.png)
   * 練習二：登入和登出
-  <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01>
+  <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex02>
+  ![](https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex02-answer.png)
+  
 * 實戰練習 - NPM
 * 實戰練習 - BMI 單元測試
 * 實戰練習 - WebdriverIO
   * 實戰練習 - 登入和登出
+  <https://github.com/alincode/jsdc-tw-2016-webdriverio/blob/master/test/specs/demo2.js>
   * 實戰練習 - 檔案上傳
   <https://raw.githubusercontent.com/alincode/webdriverio-workshop/master/webdriverio/ex02.md>
   * 實戰練習 - basic Auth <https://raw.githubusercontent.com/alincode/webdriverio-workshop/master/webdriverio/ex03.md>
