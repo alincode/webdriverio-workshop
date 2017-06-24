@@ -10,3 +10,9 @@
 <https://github.com/agileworks-tw/desktop-jenkins2-vagrant/blob/ithome/e2e-workshop/Vagrantfile>
 
 ### 練習題答案放置位置
+
+* Selenium IDE 實戰練習
+  * 練習一：測試計算機 <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01>
+  * 練習二：登入和登出
+  <https://github.com/alincode/webdriverio-workshop/blob/master/selenium-ide/assets/ex01>
+
