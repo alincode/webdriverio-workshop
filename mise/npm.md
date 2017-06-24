@@ -39,16 +39,6 @@ npm init -f
 }
 ```
 
-**練習題**
-
-使用 `npm init` 指令新增一個專案
-
-```
-mkdir demo
-cd demo
-npm init -y
-```
-
 ### 安裝套件
 
 * [install | npm Documentation](https://docs.npmjs.com/cli/install)

@@ -9,7 +9,9 @@
 
 <http://localhost:9083>
 
-### 環境異常
+* [How can I change the font of my editor? - Cloud9 Support - Cloud9 Community](https://community.c9.io/t/how-can-i-change-the-font-of-my-editor/1431)
+
+### 異常排解
 
 * Selenium Server 沒打開
 
@@ -19,7 +21,7 @@
 webdriver-manage start
 ```
 
-* Selenium Server 打開後還是有問題
+* Selenium Server 打開後，跑測試的時候噴出 Error。
 
 更新瀏覽器驅動程式
 

@@ -59,6 +59,7 @@ lang.length;
 lang.forEach(function(item) {
     console.log(item);
 });
+// do something...
 ```
 
 **物件**
@@ -96,4 +97,5 @@ lang.forEach(callback);
 
 ```js
 var LoginPage = require('../pageobjects/login.page');
+var path = require('path');
 ```

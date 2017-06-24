@@ -1,4 +1,4 @@
-# 用 REPL 來練習撰寫自動化程式
+# REPL 模式
 
 <http://webdriver.io/guide/usage/repl.html#description>
 
@@ -7,13 +7,17 @@
 **啟動 REPL**
 
 ```
-npm uninstall webdriver -g
 npm install webdriverio
 node_module/.bin/wdio repl firefox
 node_module/.bin/wdio repl chrome
 ```
+**啟動 debug mode**
 
-**實戰練習：取得 Dcard 的頭條**
+```js
+browser.debug();
+```
+
+**範例：取得 Dcard 的頭條**
 
 ```js
 browser.url('https://www.dcard.tw/signup');

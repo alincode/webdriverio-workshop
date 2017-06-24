@@ -92,7 +92,7 @@ link=Cancel
 <html>
 ```
 
-### CSS selector
+### CSS 選取器 (selector)
 
 css=cssSelectorSyntax：以 CSS 選擇器來選擇元素，請參考 CSS2 選擇器、CSS3 選擇器的說明。這應該是網頁工程師最容易使用的定位器吧。
 

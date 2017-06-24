@@ -26,6 +26,10 @@ TDD 是一種程式開發的技巧，簡單來說就是**先寫測試程式，�
 * Act：執行我們要測試的程式
 * Assert：斷言或驗證執行結果是否符合預期
 
+### Test Fixture
+
+### Mocha
+
 [Mocha](https://mochajs.org/) 測試框架
 
 **安裝 Mocha**
@@ -108,8 +112,3 @@ describe('計算機', () => {
 ```
 npm test
 ```
-
-### 練習題
-
-* 撰寫一個 BMI 的單元測試程式
-* <https://github.com/alincode/bmi>

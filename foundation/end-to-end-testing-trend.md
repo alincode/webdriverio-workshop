@@ -1,17 +1,5 @@
 # 前端測試框架趨勢介紹
 
-### 已經有 selenium webdriver 了，為什麼要用測試框架？
-
-<!--
-* 前端測試框架提供更簡單的 API
-* 完整的測試流程，並是不只有控制前端行為這麼單純。
--->
-
-<!--
-1. 我們應該把時間花在撰寫測試邏輯，而不是把時間花在測試程式的語法。
-1. 撰寫測試程式 / 組織測試集合 / 產出測試報告 / 錯誤通知...
--->
-
 ### 常見測試框架
 
 框架名稱| 語言 | 特色
@@ -34,3 +22,7 @@
 
 ### 延伸閱讀
 * [Robot Framework web automation Basics tutorial #1 - YouTube](https://www.youtube.com/watch?v=AcJ1k5SBcfc)
+  * RIDE
+  * 關鍵字導向
+  * 提供非 developer 一個比較友善寫測試的方式
+  * but...

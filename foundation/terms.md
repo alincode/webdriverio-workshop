@@ -10,9 +10,8 @@
  Integration test | 整合測試
  Monkey test | 搞怪測試，盡可能惡搞來看系統穩定度
  Test Case | 測試案例
- Test Suite |
- Test Runner |
- Test Fixture |
+ Test Suite | 測試案例集合
+ Test Runner | 單次的測試結果
 
 <!--
 * [自動化測試 手札: Android 自動化壓測工具－Monkey Test (模擬器篇)](http://sunmr.blogspot.tw/2015/08/android-monkey-test.html)

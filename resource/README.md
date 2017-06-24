@@ -6,12 +6,12 @@
 
 ### 可供測試的網站
 
+* <http://the-internet.herokuapp.com/>
 * <http://demoqa.com/>
 * <http://phptravels.com/demo/>
 * <http://automationpractice.com/>
 * <https://enterprise-demo.orangehrmlive.com/auth/login>
 * <http://bit.ly/watir-example>
-* <http://the-internet.herokuapp.com/>
 * <http://juliemr.github.io/protractor-demo/>
 * [Demo Testing Site - GlobalSQA](http://www.globalsqa.com/demo-site/)
 * [AngularJS Protractor Practice Site - GlobalSQA](http://www.globalsqa.com/angularjs-protractor-practice-site/)

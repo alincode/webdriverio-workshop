@@ -2,7 +2,7 @@
 
 * JDK
 * NPM
-* Selenium IDE (Option)
+* Firefox & Selenium IDE (Option)
 
 ### 安裝 NPM
 
@@ -28,3 +28,7 @@ npm -v
 第二步：然後你必須要安裝 Selenium IDE，你可以至 <https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/> 安裝它。
 
 ![](assets/selenium-ide.png)
+
+### 延伸閱讀
+
+* <https://github.com/SeleniumHQ/selenium/tree/master/ide>

@@ -1,6 +1,4 @@
-# 實用工具
-
-### Chimp
+# 實用工具 Chimp
 
 > Develop acceptance tests & end-to-end tests with realtime feedback
 
