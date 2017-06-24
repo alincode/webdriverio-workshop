@@ -20,14 +20,50 @@
 
 UAT：全名叫 User Acceptance Testing 使用者驗收測試
 
-### 測試資料
+### 測試需要使用到的資料
 
-* 環境變數
-* 測試資料庫
-* 假資料
+* 環境變數 & 環境設定檔
+
+```
+// test/conf
+defaults.js
+index.js
+local.js
+mobile.js
+travis-ci.js
+```
+
+<https://github.com/webdriverio/webdriverio/blob/master/test/conf/defaults.js>
+
+
+```
+process.env._PORT
+```
+
+**Mac**
+
+```
+export TESTINGBOT_KEY=
+export TESTINGBOT_SECRET=
+```
+
+**Window**
+
+```
+SET TESTINGBOT_KEY=
+SET TESTINGBOT_SECRET=
+```
+
+#### fixtures
+
+https://github.com/webdriverio/webdriverio/tree/master/test/fixtures
+
+**測試專用資料庫**
+
+* 匯入測試 sql 檔案至資料庫
+* 將初始化專案的假資料存在 JSON
 
 ### 測試金字塔 (Test Pyramid)
-
 
 ![](https://img3.doubanio.com/lpic/s6246942.jpg)
 

@@ -5,6 +5,7 @@
 ### 常常遇到拋出 element，不存在的 error？
 
 多用 waitFor
+
 少用 browser.pause(3000)
 
 ### 用 ReactJS, AngularJS 寫的網站，可不可以測？

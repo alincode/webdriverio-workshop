@@ -1,0 +1,6 @@
+# Debug
+
+```js
+browser.debug();
+```
+
