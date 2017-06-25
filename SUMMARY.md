@@ -44,8 +44,6 @@
   * [開放性問答](questions/5.md)
   * [REPL 模式](webdriverio/repl.md)
   * [測試帳號與資料的管理](webdriverio/data.md)
-  * [hook 的應用](webdriverio/hook.md)
-  * [window](webdriverio/window.md)
   * [測試報表](report/README.md)
   * [跨瀏覽器測試](cloud/cross-browser-testing.md)
   * [實戰練習 - 雲端瀏覽器測試](webdriverio/ex05.md)
@@ -55,3 +53,5 @@
 * [更多資源](resource/README.md)
 
 <!--* [Jenkins](mise/jenkins.md)-->
+<!--* [hook 的應用](webdriverio/hook.md)-->
+<!--* [window](webdriverio/window.md)-->

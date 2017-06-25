@@ -3,6 +3,7 @@
 #### 作者
 
 * [劉艾霖](https://github.com/alincode)（alincode）
+* alincode@gmail.com
 
 #### 授權
 
