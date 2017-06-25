@@ -15,7 +15,7 @@
 
 * Selenium Server 沒打開
 
-![](mise/assets/connect-error.png)
+![](assets/connect-error.png)
 
 ```
 webdriver-manage start
