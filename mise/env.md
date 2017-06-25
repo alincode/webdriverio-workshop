@@ -18,7 +18,7 @@
 ![](assets/connect-error.png)
 
 ```
-webdriver-manage start
+webdriver-manager start
 ```
 
 * Selenium Server 打開後，跑測試的時候噴出 Error。
@@ -26,7 +26,7 @@ webdriver-manage start
 更新瀏覽器驅動程式
 
 ```
-webdriver-manage update
+webdriver-manager update
 ```
 
 **測試環境的步驟**
