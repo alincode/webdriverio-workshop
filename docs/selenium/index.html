@@ -1,0 +1,966 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>介紹 Selenium · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../selenium-ide/ui.html" />
+    
+    
+    <link rel="prev" href="../foundation/terms.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../promotion/about-me.html">
+            
+                <a href="../promotion/about-me.html">
+            
+                    
+                    關於我
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../promotion/course/20170625/rundown.html">
+            
+                <a href="../promotion/course/20170625/rundown.html">
+            
+                    
+                    Rundown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../mise/env.html">
+            
+                <a href="../mise/env.html">
+            
+                    
+                    上課 VM 環境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第一節 - 基礎篇
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../questions/1.html">
+            
+                <a href="../questions/1.html">
+            
+                    
+                    開放性問答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../foundation/">
+            
+                <a href="../foundation/">
+            
+                    
+                    網站測試基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../foundation/terms.html">
+            
+                <a href="../foundation/terms.html">
+            
+                    
+                    網站相關專有名詞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    介紹 Selenium
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../selenium-ide/ui.html">
+            
+                <a href="../selenium-ide/ui.html">
+            
+                    
+                    介紹 Selenium IDE UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../foundation/selector.html">
+            
+                <a href="../foundation/selector.html">
+            
+                    
+                    選取元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../selenium-ide/">
+            
+                <a href="../selenium-ide/">
+            
+                    
+                    Selenium IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../install/">
+            
+                <a href="../install/">
+            
+                    
+                    安裝環境指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../selenium-ide/ex.html">
+            
+                <a href="../selenium-ide/ex.html">
+            
+                    
+                    Selenium IDE 實戰練習
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第二節 - 單元測試
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../questions/2.html">
+            
+                <a href="../questions/2.html">
+            
+                    
+                    開放性問答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../mise/js.html">
+            
+                <a href="../mise/js.html">
+            
+                    
+                    Javascript 基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../mise/npm.html">
+            
+                <a href="../mise/npm.html">
+            
+                    
+                    NPM 套件管理工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../mise/npm-ex.html">
+            
+                <a href="../mise/npm-ex.html">
+            
+                    
+                    實戰練習 - NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../framework/cucumber.html">
+            
+                <a href="../framework/cucumber.html">
+            
+                    
+                    BDD Style - Cucumber
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../framework/mocha.html">
+            
+                <a href="../framework/mocha.html">
+            
+                    
+                    Mocha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../framework/chai.html">
+            
+                <a href="../framework/chai.html">
+            
+                    
+                    斷言函式庫 Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../framework/mocha-ex.html">
+            
+                <a href="../framework/mocha-ex.html">
+            
+                    
+                    實戰練習 - BMI 單元測試
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../webdriverio/">
+            
+                <a href="../webdriverio/">
+            
+                    
+                    第三節 - 網站測試基礎
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../questions/3.html">
+            
+                <a href="../questions/3.html">
+            
+                    
+                    開放性問答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../foundation/end-to-end-testing-trend.html">
+            
+                <a href="../foundation/end-to-end-testing-trend.html">
+            
+                    
+                    前端測試框架趨勢介紹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="selenium-server.html">
+            
+                <a href="selenium-server.html">
+            
+                    
+                    設定 Selenium Server 環境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../webdriverio/">
+            
+                <a href="../webdriverio/">
+            
+                    
+                    介紹 WebdriverIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../webdriverio/init.html">
+            
+                <a href="../webdriverio/init.html">
+            
+                    
+                    初始化測試的專案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../webdriverio/conf.html">
+            
+                <a href="../webdriverio/conf.html">
+            
+                    
+                    設定檔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../webdriverio/commend.html">
+            
+                <a href="../webdriverio/commend.html">
+            
+                    
+                    常用指令語法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../webdriverio/customer-commend.html">
+            
+                <a href="../webdriverio/customer-commend.html">
+            
+                    
+                    客製化命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="../webdriverio/ex01.html">
+            
+                <a href="../webdriverio/ex01.html">
+            
+                    
+                    實戰練習 - 登入和登出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    第四節 - 網站測試進階
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../webdriverio/ex02.html">
+            
+                <a href="../webdriverio/ex02.html">
+            
+                    
+                    實戰練習 - 檔案上傳
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../webdriverio/ex03.html">
+            
+                <a href="../webdriverio/ex03.html">
+            
+                    
+                    實戰練習 - basic Auth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../questions/4.html">
+            
+                <a href="../questions/4.html">
+            
+                    
+                    開放性問答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../webdriverio/manage.html">
+            
+                <a href="../webdriverio/manage.html">
+            
+                    
+                    組織測試專案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../webdriverio/page-object.html">
+            
+                <a href="../webdriverio/page-object.html">
+            
+                    
+                    Page Object 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../webdriverio/ex04.html">
+            
+                <a href="../webdriverio/ex04.html">
+            
+                    
+                    實戰練習 - 改寫登入和登出為 Page Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    第五節 - 網站測試進階
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../questions/5.html">
+            
+                <a href="../questions/5.html">
+            
+                    
+                    開放性問答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../webdriverio/repl.html">
+            
+                <a href="../webdriverio/repl.html">
+            
+                    
+                    REPL 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../webdriverio/data.html">
+            
+                <a href="../webdriverio/data.html">
+            
+                    
+                    測試帳號與資料的管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../report/">
+            
+                <a href="../report/">
+            
+                    
+                    測試報表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../cloud/cross-browser-testing.html">
+            
+                <a href="../cloud/cross-browser-testing.html">
+            
+                    
+                    跨瀏覽器測試
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../webdriverio/ex05.html">
+            
+                <a href="../webdriverio/ex05.html">
+            
+                    
+                    實戰練習 - 雲端瀏覽器測試
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../mise/tool.html">
+            
+                <a href="../mise/tool.html">
+            
+                    
+                    實用工具 Chimp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../mise/docker.html">
+            
+                <a href="../mise/docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../advice/">
+            
+                <a href="../advice/">
+            
+                    
+                    實用建議
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../resource/">
+            
+                <a href="../resource/">
+            
+                    
+                    更多資源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >介紹 Selenium</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4ECB;&#x7D39;-selenium">&#x4ECB;&#x7D39; Selenium</h1>
+<ul>
+<li>&#x514D;&#x8CBB;&#x4F7F;&#x7528; (Open source project)</li>
+<li>&#x53EF;&#x900F;&#x904E;&#x81EA;&#x52D5;&#x5316;&#x7684;&#x65B9;&#x5F0F;&#x4F86;&#x63A7;&#x5236;&#x4F7F;&#x7528;&#x8005;&#x4ECB;&#x9762;</li>
+<li>&#x652F;&#x63F4;&#x591A;&#x7A2E;&#x700F;&#x89BD;&#x5668;&#xFF1A;Firefox&#x3001;Chrome&#x3001;IE&#x3001;Edga...</li>
+<li>&#x652F;&#x63F4;&#x591A;&#x5E73;&#x53F0;&#xFF1A;MAC&#x3001;Window&#x3001;Linux</li>
+<li>&#x652F;&#x63F4;&#x591A;&#x8A9E;&#x8A00;&#xFF1A;Java&#x3001;Python&#x3001;Ruby&#x3001;C#&#x3001;Javascipt&#x3001;C++</li>
+<li><a href="https://github.com/christian-bromann/awesome-selenium" target="_blank">https://github.com/christian-bromann/awesome-selenium</a></li>
+</ul>
+<p><strong>&#x512A;&#x9EDE;</strong></p>
+<ul>
+<li>&#x652F;&#x63F4;&#x91CD;&#x8907;&#x57F7;&#x884C;&#x6E2C;&#x8A66;&#x7A0B;&#x5F0F;</li>
+<li>&#x652F;&#x63F4;&#x4E26;&#x884C;&#x57F7;&#x884C;</li>
+<li>&#x652F;&#x63F4;&#x80CC;&#x666F;&#x57F7;&#x884C;</li>
+<li>&#x6E1B;&#x5C11;&#x4EBA;&#x70BA;&#x7522;&#x751F;&#x7684;&#x932F;&#x8AA4;&#x3002;</li>
+<li>&#x7701;&#x4E0B;&#x6E2C;&#x8A66;&#x7684;&#x6642;&#x9593;</li>
+</ul>
+<p><strong>&#x61C9;&#x7528;&#x9818;&#x57DF;</strong></p>
+<ul>
+<li>&#x81EA;&#x52D5;&#x5316;&#x6E2C;&#x8A66;</li>
+<li>&#x7DB2;&#x7AD9;&#x64F7;&#x53D6; / &#x7DB2;&#x8DEF;&#x722C;&#x87F2;</li>
+</ul>
+<p><strong>&#x76EE;&#x524D;&#x6709;&#x56DB;&#x500B;&#x4E3B;&#x8981;&#x7684;&#x5C08;&#x6848;</strong></p>
+<ul>
+<li>Selenium IDE</li>
+<li>Selenium Remote Control (RC)</li>
+<li>Selenium Grid</li>
+<li>Selenium WebDriver</li>
+</ul>
+<h3 id="selenium-ide">Selenium IDE</h3>
+<p>Selenium IDE &#x662F; Firefox &#x9644;&#x52A0;&#x5143;&#x4EF6; (extension)&#xFF0C;&#x9700;&#x8981;&#x642D;&#x914D; Firefox &#x700F;&#x89BD;&#x5668;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x3002;</p>
+<p><strong>&#x958B;&#x555F; Selenium IDE</strong></p>
+<p>&#x5728; Firefox &#x700F;&#x89BD;&#x5668;&#x7684;<strong>&#x5DE5;&#x5177;</strong>&#x9078;&#x55AE;&#xFF0C;&#x6253;&#x958B; <strong>Selenium IDE</strong> &#x6703;&#x51FA;&#x73FE;&#x4E0B;&#x9762;&#x9019;&#x500B;&#x8996;&#x7A97;&#x756B;&#x9762;&#xFF1A;</p>
+<p><img src="http://www.seleniumhq.org/projects/ide/selenium-ide.gif" alt=""></p>
+<h3 id="selenium-remote-control">Selenium Remote Control</h3>
+<p>&#x7C21;&#x7A31; <strong>Selenium RC</strong>&#xFF0C;&#x5B83;&#x63D0;&#x4F9B;&#x53EF;&#x4EE5;&#x9060;&#x7AEF;&#x57F7;&#x884C; Selenium &#x7684; Client / Server &#x67B6;&#x69CB;&#x3002;</p>
+<p>Selenium Server &#x662F;&#x8907;&#x96DC;&#x63A7;&#x5236;&#x700F;&#x89BD;&#x5668;&#x884C;&#x70BA;&#xFF0C;Selenium Client &#x5247;&#x662F;&#x7528;&#x65BC;&#x64B0;&#x5BEB;&#x6E2C;&#x8A66;&#x8173;&#x672C;&#x4F86;&#x8DDF; Selenium Server &#x6E9D;&#x901A;&#x3002;</p>
+<!-- Selenium Server 包含：Launcher 啟動瀏覽器、Http Proxy、Core -->
+<h3 id="selenium-grid">Selenium Grid</h3>
+<p>&#x5716;&#x7247;&#x4F86;&#x6E90;&#xFF1A;<a href="https://saucelabs.com/blog/introducing-the-sauce-plugin-for-selenium-grid" target="_blank">Introducing the Sauce Plugin for Selenium Grid | Sauce Labs</a></p>
+<p><img src="https://az184419.vo.msecnd.net/sauce-labs/blog-images/se_grid_blog.jpg" alt=""></p>
+<p>Selenium Grid &#x4E3B;&#x8981;&#x63A7;&#x5236;&#x591A;&#x53F0;&#x6A5F;&#x5668;(RC Node)&#xFF0C;&#x6BCF;&#x6B21;&#x6E2C;&#x8A66;&#x4EFB;&#x52D9;&#x90FD;&#x5148;&#x547C;&#x53EB; Hub&#xFF0C;&#x7136;&#x5F8C;&#x518D;&#x7531;&#x8DEF;&#x7531; (Hub) &#x5206;&#x914D;&#x7D66;&#x7BC0;&#x9EDE; (Node)&#x3002;</p>
+<ul>
+<li>Selenium Grid Hub</li>
+<li>Selenium Grid Node</li>
+</ul>
+<h3 id="selenium-webdriver">Selenium WebDriver</h3>
+<p><img src="http://nightwatchjs.org/img/operation.png" alt=""></p>
+<p>&#x8A31;&#x591A;&#x7DB2;&#x9801;&#x81EA;&#x52D5;&#x5316;&#x6E2C;&#x8A66;&#x6846;&#x67B6;&#xFF0C;&#x90FD;&#x662F;&#x4EE5; Selenium WebDriver API &#x4F5C;&#x70BA;&#x57FA;&#x790E;&#xFF0C;&#x529F;&#x80FD;&#x5F37;&#x5927;&#x4E14;&#x7A69;&#x56FA;&#x5DF2;&#x7D93;&#x8B93; Selenium &#x6210;&#x70BA;&#x700F;&#x89BD;&#x5668;&#x81EA;&#x52D5;&#x5316;&#x7684;&#x57FA;&#x77F3;&#x3002;Selenium 2.0 &#x5E36;&#x4F86; WebDriver &#x7684;&#x5BE6;&#x4F5C;&#xFF0C;&#x8DE8;&#x8D8A;&#x4E0D;&#x540C;&#x700F;&#x89BD;&#x5668;&#x7684;&#x81EA;&#x52D5;&#x5316;&#x64CD;&#x4F5C;&#xFF0C;&#x6709;&#x66F4;&#x6E05;&#x695A;&#x5B9A;&#x7FA9;&#x7684;&#x6A19;&#x6E96;&#x53EF;&#x5FAA;&#xFF0C;&#x76EE;&#x524D; <a href="http://www.w3.org/TR/webdriver/" target="_blank">WebDriver API</a> &#x898F;&#x7BC4;&#x5DF2;&#x63D0;&#x4EA4; W3C&#xFF0C;&#x82E5;&#x80FD;&#x5920;&#x88AB;&#x6A19;&#x6E96;&#x5316;&#x4E14;&#x5728;&#x5404;&#x5927;&#x700F;&#x89BD;&#x5668;&#x5BE6;&#x4F5C;&#xFF0C;&#x57F7;&#x884C;&#x8DE8;&#x700F;&#x89BD;&#x5668;&#x7684;&#x81EA;&#x52D5;&#x5316;&#x6E2C;&#x8A66;&#x5DE5;&#x4F5C;&#x5C07;&#x6703;&#x88AB;&#x7C21;&#x5316;&#x8A31;&#x591A;&#x3002;</p>
+<h3 id="&#x5EF6;&#x4F38;&#x95B1;&#x8B80;">&#x5EF6;&#x4F38;&#x95B1;&#x8B80;</h3>
+<ul>
+<li><a href="https://github.com/SeleniumHQ/selenium" target="_blank">GitHub - SeleniumHQ/selenium: A browser automation framework and ecosystem.</a></li>
+<li><a href="http://docs.seleniumhq.org/docs/" target="_blank">Selenium Documentation &#x2014; Selenium Documentation</a></li>
+<li><a href="https://www.w3.org/TR/webdriver/" target="_blank">https://www.w3.org/TR/webdriver/</a></li>
+<li><a href="http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/" target="_blank">http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/</a></li>
+<li><a href="https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver" target="_blank">https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../foundation/terms.html" class="navigation navigation-prev " aria-label="Previous page: 網站相關專有名詞">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../selenium-ide/ui.html" class="navigation navigation-next " aria-label="Next page: 介紹 Selenium IDE UI">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"介紹 Selenium","level":"1.5.4","depth":2,"next":{"title":"介紹 Selenium IDE UI","level":"1.5.5","depth":2,"path":"selenium-ide/ui.md","ref":"selenium-ide/ui.md","articles":[]},"previous":{"title":"網站相關專有名詞","level":"1.5.3","depth":2,"path":"foundation/terms.md","ref":"foundation/terms.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"selenium/README.md","mtime":"2021-02-25T00:36:58.360Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-25T00:37:28.452Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
