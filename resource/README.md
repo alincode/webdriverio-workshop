@@ -6,16 +6,13 @@
 
 ### 可供測試的網站
 
-* <http://the-internet.herokuapp.com/>
-* <http://demoqa.com/>
-* <http://phptravels.com/demo/>
-* <http://automationpractice.com/>
-* <https://enterprise-demo.orangehrmlive.com/auth/login>
-* <http://bit.ly/watir-example>
-* <http://juliemr.github.io/protractor-demo/>
-* [Demo Testing Site - GlobalSQA](http://www.globalsqa.com/demo-site/)
-* [AngularJS Protractor Practice Site - GlobalSQA](http://www.globalsqa.com/angularjs-protractor-practice-site/)
-* [Way 2 Automation - Website For Testing Selenium / QTP Scripts](http://www.way2automation.com/demo.html)
+- <http://the-internet.herokuapp.com/>
+- <http://demoqa.com/>
+- <http://phptravels.com/demo/>
+- <http://automationpractice.com/>
+- <http://juliemr.github.io/protractor-demo/>
+- Demo Testing Site - GlobalSQA: <http://www.globalsqa.com/demo-site/>
+- Way 2 Automation - Website For Testing Selenium / QTP Scripts: <http://www.way2automation.com/demo.html>
 
 <!--搜尋 Demo website to practice-->
 
